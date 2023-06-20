@@ -25,7 +25,7 @@ const CardTrack = (props) => {
   return (
     <div className={classes.parent}>
       <Card className={classes.track} variant="outlined">
-        <CardHeader title={props.title} subheader="Powered by Speechly"/>
+        <CardHeader title={props.title} subheader="The Code Fabs"/>
         <CardContent>
           <Typography align="center">Total Expense = 100$</Typography>
         </CardContent>

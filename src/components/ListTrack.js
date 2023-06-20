@@ -20,6 +20,15 @@ const useStyles = makeStyles({
   avatarInc: { backgroundColor: "navy" },
   avatarExp: { backgroundColor: "orange" },
   slide: { overflowY: "scroll" },
+  deleteAllButton: {
+    color : "white",
+    display: "flex",
+    justifyContent: "center",
+    marginTop: 10,
+    marginBottom: 10,
+    width: "100%",
+    backgroundColor: "#f8789f", // Add this line to set the button color
+  },
 });
 
 const ListTrack = () => {
@@ -32,7 +41,7 @@ const ListTrack = () => {
         <Button
           onClick={removeAll}
           variant="outlined"
-          style={{ marginLeft: 170 }}
+          className={classes.deleteAllButton}
         >
           Delete All
         </Button>

@@ -177,7 +177,7 @@ const Form = () => {
         <Button
           variant="contained"
           fullWidth
-          style={{ marginTop: 20, color: "#fff", backgroundColor: "navy" }}
+          style={{ marginTop: 20, color: "white", backgroundColor: "#f8789f" }}
           onClick={createTrans}
         >
           Track

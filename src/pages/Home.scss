@@ -3,7 +3,7 @@
 
     .ionic-head{
         background-color: #f8789f;
-        color: darkblue;
+        color: white ;
         padding: 20px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         text-align: center;
@@ -29,6 +29,7 @@
     }
 }
 
+
 @media only screen and (max-width: 1024px){
 
     .ionic-page{
@@ -44,6 +45,10 @@
         }
     }
 }
+.center-heading {
+    text-align: center;
+  }
+  
 
 @media only screen and (max-width: 900px){
 

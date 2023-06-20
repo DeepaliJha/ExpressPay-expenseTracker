@@ -9,7 +9,7 @@ export default function Home() {
     <section className="ionic-page">
       <section>
         <div className="ionic-head">
-          <h1>Expense Tracker</h1>
+          <h1 className="center-heading">Expense Tracker</h1>
         </div>
       </section>
       <section className="ionic-bg">
