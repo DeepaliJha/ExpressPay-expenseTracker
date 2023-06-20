@@ -1,5 +1,5 @@
-const incomeColors = ['#1d097a', '#1849cc', '#1a1aab', '#0743e3', '#112354', '#244296', '#1c1480', '#0b1299', '#090d52'];
-const expenseColors = ['#fccb05', '#bd7115', '#ffa703', '#f28705', '#d9d641', '#e3b432', '#dba22e', '#fcf262', '#f2d972', '#faca02', '#f29f05'];
+const incomeColors = ['#651fff', '#7c4dff', '#8c9eff', '#9ea8ff', '#b0bfff', '#c3d5ff', '#d7e2ff', '#ebf0ff', '#f7f8ff'];
+const expenseColors = ['#0288d1', '#039be5', '#03a9f4', '#29b6f6', '#4fc3f7', '#81d4fa', '#b3e5fc', '#e1f5fe', '#f0f8ff'];
 
 export const incomeCategories = [
   { type: 'Business', amount: 0, color: incomeColors[0] },
@@ -28,6 +28,6 @@ export const expenseCategories = [
 ];
 
 export const resetCategories = () => {
-  incomeCategories.forEach((c) => c.amount = 0);
-  expenseCategories.forEach((c) => c.amount = 0);
+  incomeCategories.forEach((c) => (c.amount = 0));
+  expenseCategories.forEach((c) => (c.amount = 0));
 };

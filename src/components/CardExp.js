@@ -22,14 +22,14 @@ const useStyles = makeStyles({
     marginBottom: 12,
   },
   income: {
-    width: 300,
-    height: 400,
+    width: 400,
+    height: 500,
     borderBottomWidth: 5,
     borderBottomColor: "navy",
   },
   expense: {
-    width: 300,
-    height: 400,
+    width: 400,
+    height: 500,
     borderBottomWidth: 5,
     borderBottomColor: "orange",
   },

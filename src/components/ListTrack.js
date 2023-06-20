@@ -18,16 +18,19 @@ import { ExpTrackCon } from "./Context/Context";
 
 const useStyles = makeStyles({
   avatarInc: { backgroundColor: "navy" },
-  avatarExp: { backgroundColor: "orange" },
+  avatarExp: {   borderRadius: "50%",
+    backgroundColor: "orange",
+    borderRadius: "50%", // Add this line to make the box circular
+  },
   slide: { overflowY: "scroll" },
   deleteAllButton: {
-    color : "white",
+    color: "white",
     display: "flex",
     justifyContent: "center",
     marginTop: 10,
     marginBottom: 10,
     width: "100%",
-    backgroundColor: "#f8789f", // Add this line to set the button color
+    backgroundColor: "#f8789f",
   },
 });
 

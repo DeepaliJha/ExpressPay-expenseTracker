@@ -12,8 +12,8 @@ const useStyles = makeStyles({
     fontSize: 14,
   },
   track: {
-    width: 370,
-    height: 500,
+    width: 500,
+    height: 700,
     overflowY: 'scroll',
     padding: 20,
   },
